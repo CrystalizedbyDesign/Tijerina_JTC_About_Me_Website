@@ -9,7 +9,8 @@
     justify-content: flex-end;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #418aef;
+    background-color: #1e63ef;
+    border-radius: 8px;
 }
 .nav-links {
     display: flex;
@@ -19,16 +20,14 @@
     padding: 0;
 }
 .nav-links a {
-    color: #0d039b;
-    font-weight: bold;
+    padding-right: 0.5rem;
+    color: #ffffff;
 }
 
 /* Links */
 a {
-    color: #0d039b;
-    display: inline-block;
+    color: #09308d;
     text-decoration: none;
-    padding-right: 0.5rem;
     font-weight: bold;
 }
 a:hover {
@@ -37,8 +36,8 @@ a:hover {
 
 /* Home Page Header styles */
 #homeHeader, .Welcome {
-    text-align: center;
-    color: whitesmoke;
+    position: relative;
+    color: #ffffff;
     padding: 2rem 0;
     background-image: url('images/matrix-blue-background.jpg');
     background-size: cover;
@@ -49,7 +48,9 @@ body {
     margin: 0 auto;
     max-width: 900px;
     padding: 1rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #1F2933;
+    font-size: 18px;
 }
 
 /* Typography */
@@ -66,9 +67,11 @@ p {
 /* Images */
 img {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 150px;
     border-radius: 50%;
+    border: 8px solid #0d039b;
+    padding: 2px;
 }
 
 /* Interests and Skills Section */
@@ -79,7 +82,7 @@ img {
 .interests, .skills {
     flex: 1;  /* Each section takes up equal space */
     padding: 1rem;
-    border: 1px solid #0d039b;
+    border: 2px solid #0d039b;
     border-radius: 8px;
 }
 
@@ -96,7 +99,7 @@ footer {
     margin-top: 2rem;
     padding: 1rem 0;
     border-top: 1px solid #ccc;
-    color: #555;
+    color: #374151;
 }
 
 /* Responsive */
