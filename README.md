@@ -47,3 +47,5 @@ This project follows basic accessibility best practices:
 │   └── profile.jpg
 └── README.md
 
+## 📸 Credits / Attribution
+- Background image designed by [Starline](https://www.freepik.com) / Freepik
