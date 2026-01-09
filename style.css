@@ -26,12 +26,18 @@
 
 /* Links */
 a {
-    color: #09308d;
+    color: #1e63ef;
     text-decoration: none;
     font-weight: bold;
 }
 a:hover {
     text-decoration: underline;
+}
+.contact-link {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 20px;
+    color: #1e63ef;
 }
 
 /* Home Page Header styles */
