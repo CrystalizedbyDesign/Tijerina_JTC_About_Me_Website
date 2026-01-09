@@ -37,6 +37,9 @@ This project follows basic accessibility best practices:
 - `aria-label` attributes on icon-only links
 - Semantic landmarks for screen readers
 
+## 📸 Credits / Attribution
+- Background image designed by [Starline](https://www.freepik.com) / Freepik
+
 ---
 
 ## 📁 Project Structure
@@ -46,6 +49,3 @@ This project follows basic accessibility best practices:
 ├── images/
 │   └── profile.jpg
 └── README.md
-
-## 📸 Credits / Attribution
-- Background image designed by [Starline](https://www.freepik.com) / Freepik
